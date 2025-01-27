@@ -106,6 +106,10 @@ header ul li:hover {
         margin-top: 25px;
     }
 
+    div#header_inner h2 {
+        width: 50%;
+    }
+
     header ul li {
         padding-left: 10px;
         padding-right: 10px;
