@@ -102,16 +102,33 @@ header ul li:hover {
 
 @media (max-width: 768px) {
     div#header_inner {
-        width: 100%; /* 幅を画面いっぱいに */
-        margin-top: 25px;
+        width: 100%; /* スマホの画面幅に対応 */
+        padding: 0 10px; /* 左右に余白を追加 */
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    div#header_inner img {
+        max-width: 50%; /* ロゴ画像を縮小 */
+        height: auto; /* アスペクト比を保つ */
+    }
+
+    header ul {
+        flex-direction: column; /* ナビゲーションを縦並びにする */
+        align-items: center;
+        gap: 10px; /* 各項目の間に余白 */
     }
 
     header ul li {
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 14px; /* フォントサイズを調整 */
+        border-left: none;
+        
     }
-
-
+    header ul li:last-child{
+        font-size: 14px; /* フォントサイズを調整 */
+        border-right: none;
+    }
 }
 
 /*ヘッダーここまで*/
