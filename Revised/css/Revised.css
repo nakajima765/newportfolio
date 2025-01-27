@@ -112,6 +112,7 @@ header ul li:hover {
 
     header ul {
         width: 30%;
+        height: auto;
 
     header ul li {
         padding-left: 10px;
