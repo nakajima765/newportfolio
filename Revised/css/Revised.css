@@ -107,13 +107,12 @@ header ul li:hover {
     }
 
     div#header_inner h2 {
-        width: 30%;
+        width: 10%;
     }
 
     header ul li {
         padding-left: 10px;
         padding-right: 10px;
-        width: 80%;
     }
 
 
